@@ -78,7 +78,7 @@ curl http://localhost:5001/health
 ```
 
 ```json
-{"status": "ok", "known_people": ["keshav", "mom"]}
+{"status": "ok", "known_people": ["alice", "bob"]}
 ```
 
 ### POST /verify
@@ -92,7 +92,7 @@ curl -X POST http://localhost:5001/verify -F "image=@test.jpg"
 Recognized:
 
 ```json
-{"authorized": true, "name": "keshav", "distance": 18.46}
+{"authorized": true, "name": "alice", "distance": 18.46}
 ```
 
 Not recognized:
@@ -113,11 +113,11 @@ Upload a name and one or more photos of that person. It'll crop the face out
 of each photo, save it to `dataset/<name>/`, and retrain automatically.
 
 ```bash
-curl -X POST http://localhost:5001/enroll -F "name=keshav" -F "image=@photo1.jpg" -F "image=@photo2.jpg"
+curl -X POST http://localhost:5001/enroll -F "name=alice" -F "image=@photo1.jpg" -F "image=@photo2.jpg"
 ```
 
 ```json
-{"enrolled": "keshav", "images_saved": 2}
+{"enrolled": "alice", "images_saved": 2}
 ```
 
 ### Testing /verify yourself

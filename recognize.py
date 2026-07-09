@@ -10,7 +10,7 @@ detector = cv2.FaceDetectorYN.create(
 recognizer = cv2.face.LBPHFaceRecognizer_create()
 recognizer.read("trainer.yml")
 
-# Load the ID -> name mapping, e.g. {"0": "keshav"}
+# Load the ID -> name mapping, e.g. {"0": "alice"}
 with open("names.json") as f:
     names = json.load(f)
 

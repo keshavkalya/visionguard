@@ -7,7 +7,7 @@ dataset_path = "dataset"
 
 faces = []   # list of face images
 labels = []  # matching list of numeric IDs (LBPH needs numbers, not names)
-names = {}   # maps ID number -> person name, e.g. {0: "keshav"}
+names = {}   # maps ID number -> person name, e.g. {0: "alice"}
 
 # Go through each person's folder in dataset/
 for label_id, person_name in enumerate(sorted(os.listdir(dataset_path))):

@@ -4,7 +4,7 @@ import os
 # Ask whose face we're capturing
 name = input("Enter your name: ").strip().lower()
 
-# Create a folder like dataset/keshav to store the photos
+# Create a folder like dataset/alice to store the photos
 folder = os.path.join("dataset", name)
 os.makedirs(folder, exist_ok=True)
 
