@@ -1,0 +1,8 @@
+venv/
+dataset/
+trainer.yml
+names.json
+__pycache__/
+.DS_Store
+*.jpg
+*.onnx
