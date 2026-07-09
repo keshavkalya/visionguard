@@ -169,3 +169,8 @@ You can also just reuse one of your own enrollment photos from
 - No anti-spoofing beyond the blink check — it's not resistant to a video
   replay of someone blinking.
 - The distance threshold (60) was picked by eye, not tuned scientifi
+
+
+## Demo
+<img width="553" height="360" alt="visiongaurddemo" src="https://github.com/user-attachments/assets/5c7f1927-0f93-4826-8c13-1b5429e8ea4d" />
+
