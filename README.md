@@ -7,6 +7,10 @@ face photos, and checks for a blink before granting access, so a printed
 photo can't fool it. There's also a Flask API on top so you can enroll people
 and verify faces over HTTP instead of just from the webcam scripts.
 
+## Demo
+<img width="553" height="360" alt="visiongaurddemo" src="https://github.com/user-attachments/assets/5c7f1927-0f93-4826-8c13-1b5429e8ea4d" />
+
+
 ## Features
 
 - Face detection with YuNet (a real deep learning model, not just Haar cascades)
@@ -171,6 +175,4 @@ You can also just reuse one of your own enrollment photos from
 - The distance threshold (60) was picked by eye, not tuned scientifi
 
 
-## Demo
-<img width="553" height="360" alt="visiongaurddemo" src="https://github.com/user-attachments/assets/5c7f1927-0f93-4826-8c13-1b5429e8ea4d" />
 
