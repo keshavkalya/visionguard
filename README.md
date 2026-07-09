@@ -120,6 +120,18 @@ curl -X POST http://localhost:5001/enroll -F "name=alice" -F "image=@photo1.jpg"
 {"enrolled": "alice", "images_saved": 2}
 ```
 
+### Quick demo script
+
+`demo.sh` runs all three endpoints in one go using a photo you give it —
+health check, enroll the photo as `demo_user`, then verify the same photo:
+
+```bash
+sh demo.sh path/to/your/photo.jpg
+```
+
+(To undo the demo enrollment afterwards: delete `dataset/demo_user/` and
+re-run `train.py`.)
+
 ### Testing /verify yourself
 
 Take a clear photo of your face with your phone or webcam app and save it
