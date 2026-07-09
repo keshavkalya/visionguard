@@ -170,6 +170,4 @@ You can also just reuse one of your own enrollment photos from
   replay of someone blinking.
 - The distance threshold (60) was picked by eye, not tuned scientifically.
 
-## Demo
 
-<!-- TODO: add demo gif here -->
