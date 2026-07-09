@@ -168,6 +168,4 @@ You can also just reuse one of your own enrollment photos from
   generalize as well as a proper deep learning face recognition model would.
 - No anti-spoofing beyond the blink check — it's not resistant to a video
   replay of someone blinking.
-- The distance threshold (60) was picked by eye, not tuned scientifically.
-
-
+- The distance threshold (60) was picked by eye, not tuned scientifi
